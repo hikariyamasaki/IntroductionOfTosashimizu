@@ -10,6 +10,10 @@ li {
   list-style: none;
 }
 
+img{
+  vertical-align: bottom;
+}
+
 
 .header {
   width: 100%;
@@ -23,4 +27,44 @@ li {
 .header-title {
   text-align: center;
   padding-top : 40px;
+}
+
+
+/* ----section-top---- */
+.section-top {
+  width: 100%;
+}
+
+.top-image {
+  background-color: #FFDA7C;
+  text-align: center;
+  width: 200px;
+}
+
+#food-image {
+  padding-bottom: 0;
+  width: 190px;
+  /* height:300px; */
+  margin: 5px 5px 0 5px;
+}
+
+.title-box {
+  background: #FFB038;
+  display: inline-block;
+  height: 57px;
+  position: relative;
+  width: 100%;
+  vertical-align: bottom;
+}
+
+.title-box:before {
+  border-bottom: 35px solid #FFB038;
+  /* border-left: 50px solid transparent; */
+  border-right: 200px solid transparent;
+  content: "";
+  height: 0;
+  left: 0;
+  position: absolute;
+  top: -35px;
+  width: 0;
 }
