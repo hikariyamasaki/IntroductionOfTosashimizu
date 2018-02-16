@@ -26,19 +26,47 @@ img{
 
 .header-title {
   text-align: center;
-  padding-top : 40px;
+  padding-top : 100px;
 }
 
 
 /* ----section-top---- */
 .section-top {
-  width: 100%;
+  padding-top: 100px;
 }
 
-.top-image {
+
+/* food画像のバックの箱 */
+.top-image-food {
   background-color: #FFDA7C;
   text-align: center;
   width: 200px;
+  float: left;
+  margin: 0 20px
+}
+
+/* nature画像のバックの箱 */
+.top-image-nature {
+  background-color: #A6FF9D;
+  text-align: center;
+  width: 200px;
+  float: left;
+  margin: 0 20px
+}
+
+/* map画像ののバックの箱 */
+.top-image-map {
+  background-color: rgb(231, 229, 227);
+  text-align: center;
+  width: 400px;
+  float: left;
+  margin: 0 20px
+}
+
+/* topの3つの要素をflex使って中央に配置 */
+.top-image-wrapper {
+  display: flex;
+  justify-content: center;
 }
 
 #food-image {
@@ -48,23 +76,264 @@ img{
   margin: 5px 5px 0 5px;
 }
 
-.title-box {
+#nature-image {
+  height: 211px;
+  padding-bottom: 0;
+  width: 190px;
+  /* height:300px; */
+  margin: 5px 5px 0 5px;
+}
+
+#map-image {
+  padding-bottom: 0;
+  width: 190px;
+  /* height:300px; */
+  margin: 5px 5px 0 5px;
+  width: 390px;
+  height: 211px;
+}
+
+
+/* 斜めのデザインをborderを使って作ってる オレンジ */
+.title-box-food{
   background: #FFB038;
   display: inline-block;
   height: 57px;
   position: relative;
-  width: 100%;
+  width: 200px;
   vertical-align: bottom;
 }
 
-.title-box:before {
-  border-bottom: 35px solid #FFB038;
-  /* border-left: 50px solid transparent; */
+.title-box-food:before {
+  border-bottom: 50px solid #FFB038;
   border-right: 200px solid transparent;
   content: "";
   height: 0;
   left: 0;
   position: absolute;
-  top: -35px;
+  top: -50px;
   width: 0;
+}
+/* 斜めのデザインはここまで */
+
+/* 斜めのデザインをborderを使って作ってる 緑 */
+.title-box-nature{
+  background: #24CD2C;
+  display: inline-block;
+  height: 57px;
+  position: relative;
+  width: 200px;
+  vertical-align: bottom;
+}
+
+.title-box-nature:before {
+  border-bottom: 50px solid #24CD2C;
+  border-right: 200px solid transparent;
+  content: "";
+  height: 0;
+  left: 0;
+  position: absolute;
+  top: -50px;
+  width: 0;
+}
+/* 斜めのデザインはここまで */
+
+/* 斜めのデザインをborderを使って作ってる 白 */
+.title-box-map {
+  background: #D8D9D8;
+  display: inline-block;
+  height: 57px;
+  position: relative;
+  width: 400px;
+  vertical-align: bottom;
+}
+
+.title-box-map:before {
+  border-bottom: 50px solid #D8D9D8;
+  border-right: 400px solid transparent;
+  content: "";
+  height: 0;
+  left: 0;
+  position: absolute;
+  top: -50px;
+  width: 0;
+}
+/* 斜めのデザインはここまで */
+
+.card {
+  box-shadow: 0px 7px 3px -3px rgba(0,0,0,0.3);
+}
+
+.card-title-map {
+  color: rgb(110, 105, 105);
+  font-weight: bold;
+  float: left;
+  margin-left: 10px;
+}
+
+.card-title {
+  color: #fff;
+  font-weight: bold;
+  float: left;
+  margin-left: 10px;
+}
+
+.btn-card {
+  float: right;
+  margin-top: 30px;
+  margin-right: 10px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.btn-read-more {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.btn-go-google {
+  color: rgb(110, 105, 105);
+  font-size: 12px;
+  font-weight: bold;
+  border-bottom: 1px solid rgb(110, 105, 105);
+}
+
+.caret-down {
+  margin-left: 3px;
+  color: #fff;
+}
+
+.caret-down-map {
+  margin-left: 3px;
+  color: rgb(110, 105, 105);
+}
+
+
+/* section foods */
+.section-foods {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.section-title {
+  padding-top : 200px;
+  text-align: center;
+}
+
+.foods-elements {
+  margin: 0 auto;
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+.element-left {
+  float: left;
+  display: inline-block;
+  height: 314px;
+  padding-top: 35px;
+}
+
+.element-right {
+  /* margin-left: 70px; */
+  width: 700px;
+  float: left;
+  display: inline-block;
+  /* background-color: orange; */
+}
+
+/* elementの設定 */
+.element-detail {
+  box-shadow: 0px 7px 3px -3px rgba(0,0,0,0.3);
+  float: left;
+  display: inline-block;
+  background-color: rgba(#bab7b7, 1);
+  padding: 5px;
+  width: 150px;
+  margin: 25px;
+}
+
+.element-image {
+  width: 150px;
+}
+
+.btn-to-top {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  float: right;
+  text-align: center;
+  display: inline-block;
+  color: #FFF;
+  background-color: #FFB038;
+  border: none;
+  font-family: 'Dosis', sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.caret-up-foods {
+  margin-top: 12px;
+}
+
+
+/* section nature */
+.btn-to-top-nature{
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  float: right;
+  text-align: center;
+  display: inline-block;
+  color: #FFF;
+  background-color: #24CD2C;
+  border: none;
+  font-family: 'Dosis', sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+
+
+
+
+/* sectin map */
+.btn-to-top-access {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  float: right;
+  text-align: center;
+  display: inline-block;
+  color: #FFF;
+  background-color: #D8D9D8;
+  border: none;
+  font-family: 'Dosis', sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.from-tokyo {
+  margin-bottom: 10px;
+}
+
+.vehicle {
+  font-size: 20px;
+  color: rgb(85, 81, 81);
+  margin-bottom: 20px;
+}
+
+.using {
+  margin-right: 10px;
+}
+
+
+footer p{
+  width: 100%;
+  margin-top: 100px;
+  text-align: center;
+  display: inline-block;
 }
