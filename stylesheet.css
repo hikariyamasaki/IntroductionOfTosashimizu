@@ -72,40 +72,33 @@ img{
 #food-image {
   padding-bottom: 0;
   width: 190px;
-  /* height:300px; */
-  margin: 5px 5px 0 5px;
+  margin: 5px 5px auto 5px;
 }
 
 #nature-image {
-  height: 211px;
+  height: 212px;
   padding-bottom: 0;
   width: 190px;
-  /* height:300px; */
-  margin: 5px 5px 0 5px;
+  margin: 5px 5px auto 5px;
 }
 
 #map-image {
   padding-bottom: 0;
   width: 190px;
-  /* height:300px; */
   margin: 5px 5px 0 5px;
   width: 390px;
   height: 211px;
 }
 
-
-/* 斜めのデザインをborderを使って作ってる オレンジ */
-.title-box-food{
-  background: #FFB038;
+/* 斜めのカードデザイン */
+.title-box{
   display: inline-block;
   height: 57px;
   position: relative;
   width: 200px;
   vertical-align: bottom;
 }
-
-.title-box-food:before {
-  border-bottom: 50px solid #FFB038;
+.title-box:before{
   border-right: 200px solid transparent;
   content: "";
   height: 0;
@@ -113,28 +106,26 @@ img{
   position: absolute;
   top: -50px;
   width: 0;
+}
+
+
+/* 斜めのデザインをborderを使って作ってる オレンジ */
+.box-food{
+  background: #FFB038;
+}
+
+.box-food:before {
+  border-bottom: 50px solid #FFB038;
 }
 /* 斜めのデザインはここまで */
 
 /* 斜めのデザインをborderを使って作ってる 緑 */
-.title-box-nature{
+.box-nature{
   background: #24CD2C;
-  display: inline-block;
-  height: 58px;
-  position: relative;
-  width: 200px;
-  vertical-align: bottom;
 }
 
-.title-box-nature:before {
+.box-nature:before {
   border-bottom: 50px solid #24CD2C;
-  border-right: 200px solid transparent;
-  content: "";
-  height: 0;
-  left: 0;
-  position: absolute;
-  top: -50px;
-  width: 0;
 }
 /* 斜めのデザインはここまで */
 
@@ -209,8 +200,8 @@ img{
 }
 
 
-/* section foods */
-.section-foods {
+/* foodとnatureの各セクションの共通なcss */
+.section-second {
   width: 1170px;
   margin: 0 auto;
 }
@@ -220,7 +211,7 @@ img{
   text-align: center;
 }
 
-.foods-elements {
+.elements {
   margin: 0 auto;
   margin-top: 70px;
   display: flex;
@@ -235,11 +226,9 @@ img{
 }
 
 .element-right {
-  /* margin-left: 70px; */
   width: 700px;
   float: left;
   display: inline-block;
-  /* background-color: orange; */
 }
 
 /* elementの設定 */
@@ -251,6 +240,12 @@ img{
   padding: 5px;
   width: 150px;
   margin: 25px;
+}
+
+.element-detail p{
+  font-size: 13px;
+  margin-top: 2px;
+  margin-left: 5px;
 }
 
 .element-image {
@@ -317,7 +312,15 @@ img{
 }
 
 .from-tokyo {
+  margin-top: 35px;
   margin-bottom: 10px;
+}
+
+.element-right-from-tokyo {
+  width: 400px;
+  float: left;
+  display: inline-block;
+  margin-left: 60px;
 }
 
 .vehicle {
