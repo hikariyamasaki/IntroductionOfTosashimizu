@@ -25,8 +25,11 @@ img{
 }
 
 .header-title {
+  font-family: 'Poiret One', cursive;
+  color: rgb(79, 78, 80);
   text-align: center;
   padding-top : 100px;
+  font-size: 50px;
 }
 
 
@@ -209,7 +212,11 @@ img{
 .section-title {
   padding-top : 200px;
   text-align: center;
+  font-family: 'Poiret One', cursive;
+  font-size: 30px;
+  color: rgb(79, 78, 80);
 }
+
 
 .elements {
   margin: 0 auto;
