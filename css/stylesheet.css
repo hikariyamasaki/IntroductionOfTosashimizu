@@ -124,11 +124,11 @@ img{
 
 /* 斜めのデザインをborderを使って作ってる 緑 */
 .box-nature{
-  background: #24CD2C;
+  background: #60bf64;
 }
 
 .box-nature:before {
-  border-bottom: 50px solid #24CD2C;
+  border-bottom: 50px solid #60bf64;
 }
 /* 斜めのデザインはここまで */
 
@@ -159,17 +159,18 @@ img{
 }
 
 .card-title-map {
-  color: rgb(110, 105, 105);
+  color: rgb(79, 78, 80);
   font-weight: bold;
   float: left;
   margin-left: 10px;
+  font-family: 'Francois One', sans-serif;
 }
 
 .card-title {
   color: #fff;
-  font-weight: bold;
   float: left;
   margin-left: 10px;
+  font-family: 'Francois One', sans-serif;
 }
 
 .btn-card {
@@ -289,7 +290,7 @@ img{
   text-align: center;
   display: inline-block;
   color: #FFF;
-  background-color: #24CD2C;
+  background-color: #60bf64;
   border: none;
   font-family: 'Dosis', sans-serif;
   font-size: 30px;
@@ -310,7 +311,7 @@ img{
   text-align: center;
   display: inline-block;
   color: #FFF;
-  background-color: #D8D9D8;
+  background-color: #a5aba5;
   border: none;
   font-family: 'Dosis', sans-serif;
   font-size: 30px;
@@ -334,6 +335,7 @@ img{
   font-size: 20px;
   color: rgb(85, 81, 81);
   margin-bottom: 20px;
+  font-family: 'Gudea', sans-serif;
 }
 
 .using {
