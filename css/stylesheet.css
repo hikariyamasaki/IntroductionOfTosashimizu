@@ -14,7 +14,6 @@ img{
   vertical-align: bottom;
 }
 
-
 .header {
   width: 100%;
 }
@@ -31,13 +30,6 @@ img{
   padding-top : 100px;
   font-size: 50px;
 }
-
-
-/* ----section-top---- */
-.section-top {
-  padding-top: 100px;
-}
-
 
 /* food画像のバックの箱 */
 .top-image-food {
@@ -70,6 +62,7 @@ img{
 .top-image-wrapper {
   display: flex;
   justify-content: center;
+  margin-top: 100px;
 }
 
 #food-image {
@@ -110,7 +103,6 @@ img{
   top: -50px;
   width: 0;
 }
-
 
 /* 斜めのデザインをborderを使って作ってる オレンジ */
 .box-food{
@@ -203,7 +195,6 @@ img{
   color: rgb(110, 105, 105);
 }
 
-
 /* foodとnatureの各セクションの共通なcss */
 .section-second {
   width: 1170px;
@@ -217,7 +208,6 @@ img{
   font-size: 30px;
   color: rgb(79, 78, 80);
 }
-
 
 .elements {
   margin: 0 auto;
@@ -297,10 +287,6 @@ img{
   font-weight: 100;
   box-shadow: 0 2px 4px rgba(0,0,0,0.3);
 }
-
-
-
-
 
 /* sectin map */
 .btn-to-top-access {

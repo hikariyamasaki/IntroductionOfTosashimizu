@@ -1,13 +1,11 @@
-
-
-
 /* タブレット向けレイアウト */
 @media (max-width: 1000px) {
 
 }
 
 /* モバイル向けレイアウト */
-@media (max-width: 750px) { /*iPhone7に合わせる
+@media (max-width: 750px) {
+
 
 
 }
