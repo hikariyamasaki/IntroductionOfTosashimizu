@@ -37,7 +37,7 @@ img{
   text-align: center;
   width: 200px;
   float: left;
-  margin: 0 20px
+  margin: 0 20px;
 }
 
 /* nature画像のバックの箱 */
@@ -46,7 +46,7 @@ img{
   text-align: center;
   width: 200px;
   float: left;
-  margin: 0 20px
+  margin: 0 20px;
 }
 
 /* map画像ののバックの箱 */
@@ -55,7 +55,7 @@ img{
   text-align: center;
   width: 400px;
   float: left;
-  margin: 0 20px
+  margin: 0 20px;
 }
 
 /* topの3つの要素をflex使って中央に配置 */

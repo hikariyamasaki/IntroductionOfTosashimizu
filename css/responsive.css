@@ -5,7 +5,33 @@
 
 /* モバイル向けレイアウト */
 @media (max-width: 750px) {
+  .section-second {
+    display: none;
+  }
 
+  .top-image-wrapper {
+    display: inline-block;
+    /* justify-content: center; */
+    margin-top: 100px;
+  }
+
+  .top-image-food {
+    float: none;
+    margin: 0 20px;
+  }
+
+  /* nature画像のバックの箱 */
+  .top-image-nature {
+    float: none;
+    margin: 0 20px;
+
+  }
+
+  /* map画像ののバックの箱 */
+  .top-image-map {
+    float: none;
+    margin: 0 20px;
+  }
 
 
 }
