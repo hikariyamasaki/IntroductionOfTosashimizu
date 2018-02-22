@@ -11,20 +11,49 @@
 
   .top-image-wrapper {
     display: inline-block;
-    /* justify-content: center; */
     margin-top: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
   }
 
   .top-image-food {
     float: none;
-    margin: 0 20px;
+    width: 100%;
   }
+
+  .top-image-nature {
+    width: 100%;
+    float: none;
+  }
+
+  .top-image-map {
+    width: 100%;
+    float: none;
+  }
+
+  #food-image {
+    width: 95%;
+    margin: 2.5% 2.5% auto 2.5%;
+  }
+
+  #nature-image {
+    height: 100%;
+    width: 95%;
+    margin: 2.5% 2.5% auto 2.5%;
+  }
+
+  #map-image {
+    margin: 2.5% 2.5% auto 2.5%;
+    width: 95%;
+    height: 100%;
+  }
+
 
   /* nature画像のバックの箱 */
   .top-image-nature {
     float: none;
     margin: 0 20px;
-
   }
 
   /* map画像ののバックの箱 */
@@ -33,5 +62,64 @@
     margin: 0 20px;
   }
 
+  .title-box{
+    height: 200px;
+    width: 100%;
+  }
+  .title-box:before{
+    display: none;
+    border-right: 300px solid transparent;
+    /* top: -50px; */
+    height: 0;
+  }
 
+  .title-box-map {
+    height: 200px;
+    width: 100%;
+  }
+
+  .title-box-map:before {
+    display: none;
+    border-right: 300px solid transparent;
+    height: 0;
+    /* top: -50px; */
+  }
+
+  .card-title {
+    font-size: 60px;
+    margin-left: 25px;
+  }
+
+  .card-title-map {
+    font-size: 60px;
+    margin-left: 25px;
+  }
+
+  .card {
+    margin-top: 40px;
+  }
+
+  .btn-card {
+    margin-top: 130px;
+  }
+
+  .btn-read-more {
+    font-size: 40px;
+  }
+
+  .caret-down {
+    font-size: 40px;
+  }
+
+  .btn-go-google {
+    font-size: 40px;
+  }
+
+  .caret-down-map {
+    font-size: 40px;
+  }
+
+  footer p {
+    font-size: 30px;
+  }
 }
