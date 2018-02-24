@@ -63,6 +63,7 @@ img{
   display: flex;
   justify-content: center;
   margin-top: 100px;
+  margin-bottom: 200px;
 }
 
 #food-image {
@@ -202,7 +203,6 @@ img{
 }
 
 .section-title {
-  padding-top : 200px;
   text-align: center;
   font-family: 'Poiret One', cursive;
   font-size: 30px;
@@ -247,7 +247,13 @@ img{
 }
 
 .element-image {
-  width: 150px;
+  width: 100%;
+}
+
+.btn-to-top-wrapper {
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 100px;
 }
 
 .btn-to-top {

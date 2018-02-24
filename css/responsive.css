@@ -5,31 +5,45 @@
 
 /* モバイル向けレイアウト */
 @media (max-width: 750px) {
-  .section-second {
-    display: none;
+
+  .header-title {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 30px;
+  }
+
+  .container {
+    width: 100%;
   }
 
   .top-image-wrapper {
     display: inline-block;
-    margin-top: 100px;
-    margin-left: 10%;
-    margin-right: 10%;
-    width: 80%;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 100px;
   }
 
   .top-image-food {
     float: none;
-    width: 100%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 
   .top-image-nature {
-    width: 100%;
+    width: 80%;
     float: none;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 
   .top-image-map {
-    width: 100%;
+    width: 80%;
     float: none;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 
   #food-image {
@@ -53,17 +67,14 @@
   /* nature画像のバックの箱 */
   .top-image-nature {
     float: none;
-    margin: 0 20px;
   }
 
   /* map画像ののバックの箱 */
   .top-image-map {
     float: none;
-    margin: 0 20px;
   }
 
   .title-box{
-    height: 200px;
     width: 100%;
   }
   .title-box:before{
@@ -74,7 +85,6 @@
   }
 
   .title-box-map {
-    height: 200px;
     width: 100%;
   }
 
@@ -86,40 +96,93 @@
   }
 
   .card-title {
-    font-size: 60px;
-    margin-left: 25px;
+    font-size: 20px;
   }
 
   .card-title-map {
-    font-size: 60px;
-    margin-left: 25px;
-  }
-
-  .card {
-    margin-top: 40px;
+    font-size: 20px;
   }
 
   .btn-card {
-    margin-top: 130px;
   }
 
   .btn-read-more {
-    font-size: 40px;
+    font-size: 15px;
   }
 
   .caret-down {
-    font-size: 40px;
+    font-size: 15px;
   }
 
+  /* カードのMoreボタン Map*/
   .btn-go-google {
-    font-size: 40px;
+    font-size: 15px;
   }
 
   .caret-down-map {
-    font-size: 40px;
+    font-size: 15px;
   }
 
-  footer p {
+  .section-second {
+    width: 100%;
+  }
+
+
+  .section-title {
+    padding-top: 0;
     font-size: 30px;
+}
+
+.elements {
+    margin-top: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+
+/* 非表示 */
+  .element-left {
+    display: none;
+  }
+
+  .element-right {
+    width: 100%;
+  }
+
+
+
+  .element-detail {
+    width: 40%;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    display: inline-block;;
+  }
+
+  .element-detail p {
+    font-size: 12px;
+}
+
+  /* topにへ戻るボタン非表示 */
+  .btn-to-top {
+    /* margin-right: 15px; */
+    display: none;
+  }
+
+  /* Natureからtopに戻るボタンを非表示 */
+  .btn-to-top-nature {
+    display: none;
+  }
+
+  /* Accessからtopに戻るボタンを非表示 */
+  .btn-to-top-access {
+    display: none;
+  }
+
+
+
+  footer p {
+    font-size: 10px;
+    margin-top: 200px;
+    margin-bottom: 30px;
   }
 }

@@ -39,7 +39,7 @@
             <div class="title-box box-nature">
               <p class="card-title">Nature</p>
               <div class="btn-card">
-                <a class="btn-read-more">More</a><i class="fas fa-caret-down caret-down"></i>
+                <a class="btn-read-more" href="#Nature-area">More</a><i class="fas fa-caret-down caret-down"></i>
               </div>
             </div>
           </div>
@@ -48,7 +48,7 @@
             <div class="title-box-map">
               <p class="card-title-map">Where is?</p>
               <div class="btn-card">
-                <a class="btn-go-google" href="https://www.google.ru/maps/dir//%E5%9C%9F%E4%BD%90%E6%B8%85%E6%B0%B4%E5%B8%82%E3%80%81%E9%AB%98%E7%9F%A5%E7%9C%8C/@32.7817008,132.9199695,13z/data=!4m9!4m8!1m0!1m5!1m1!1s0x354f3670ec80c181:0x22cf4510eac828d5!2m2!1d132.9549889!2d32.7816335!3e0" target="_blank">More</a><i class="fas fa-caret-down caret-down-map"></i>
+                <a class="btn-go-google" href="#Access-area">More</a><i class="fas fa-caret-down caret-down-map"></i>
               </div>
             </div>
           </div>
@@ -75,15 +75,17 @@
             <!-- insert_elementsから入ってきます -->
           </div>
         </div>
-        <div class="btn-to-top">
-          <i class="fas fa-chevron-up caret-up-foods"></i>
+        <div class="btn-to-top-wrapper">
+          <div class="btn-to-top">
+            <i class="fas fa-chevron-up caret-up-foods"></i>
+          </div>
         </div>
     </div>
 
 
 <!-- Nature -->
     <div class="section-second">
-        <h2 class="section-title">Nature</h2>
+        <h2 class="section-title" id="Nature-area">Nature</h2>
         <div class="elements">
           <div class="element-left">
             <div class="top-image-nature card">
@@ -100,22 +102,24 @@
             <!-- insert_elementsから入ってきます -->
           </div>
         </div>
+        <div class="btn-to-top-wrapper">
         <div class="btn-to-top-nature btn-to-top">
           <i class="fas fa-chevron-up caret-up-foods"></i>
         </div>
+      </div>
     </div>
 
 
 
 <!-- Access -->
     <div class="section-second">
-        <h2 class="section-title">Access</h2>
+        <h2 class="section-title" id="Access-area">Access</h2>
         <div class="elements">
           <div class="element-left">
             <div class="top-image-map card">
               <img id="map-image" src="./image/map-image.png"/>
               <div class="title-box-map">
-                <p class="card-title-map">Where is?</p>
+                <p class="card-title-map" id="Access-area">Where is?</p>
                 <div class="btn-card">
                   <a class="btn-go-google" href="https://www.google.ru/maps/dir//%E5%9C%9F%E4%BD%90%E6%B8%85%E6%B0%B4%E5%B8%82%E3%80%81%E9%AB%98%E7%9F%A5%E7%9C%8C/@32.7817008,132.9199695,13z/data=!4m9!4m8!1m0!1m5!1m1!1s0x354f3670ec80c181:0x22cf4510eac828d5!2m2!1d132.9549889!2d32.7816335!3e0" target="_blank">Google Map</a><i class="fas fa-caret-down caret-down-map"></i>
                 </div>
@@ -137,9 +141,11 @@
             </div>
           </div>
         </div>
+        <div class="btn-to-top-wrapper">
         <div class="btn-to-top-access btn-to-top">
           <i class="fas fa-chevron-up caret-up-foods"></i>
         </div>
+      </div>
     </div>
   </main>
 
