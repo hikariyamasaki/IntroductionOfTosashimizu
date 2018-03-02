@@ -1,0 +1,33 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+img{
+  vertical-align: bottom;
+}
+
+.header {
+  width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1170px;
+}
+
+.perayaki h1 {
+    background-color: red;
+}
+
+
+#img-perataki img{
+  width: 100px;
+}

@@ -21,4 +21,8 @@ $(function(){
     });
 
 
+  $('.element-detail').click(function(){
+    window.location.href = "./html/comingsoon.html";
+  });
+
 });

@@ -1,0 +1,21 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.comingsoon {
+  width: 100%;
+  text-align:center
+}
+
+.comingsoon img {
+  width: 70%;
+  margin-top: 50px;
+}
