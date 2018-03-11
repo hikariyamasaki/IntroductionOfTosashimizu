@@ -18,6 +18,10 @@ img{
   position: relative;
 }
 
+.filter {
+  background: #000;
+}
+
 .page-element {
   position: absolute;
   color: white;
@@ -35,8 +39,35 @@ img{
   font-weight: bold;
 }
 
-
-
 .bd img{
   width: 100%;
+  display: block;
+  opacity: 0.4;
+}
+
+.recommendation {
+  display: inline-block;
+  width: 70%;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 100px;
+}
+
+.recommend-image {
+  width: 30%;
+  display: inline-block;
+  float: left;
+}
+
+.about-place {
+  margin-left: 30px;
+  display: inline-block;
+}
+
+.about-place a{
+  font-size: 30px;
+}
+
+.about-place li{
+  font-size: 20px;
 }
