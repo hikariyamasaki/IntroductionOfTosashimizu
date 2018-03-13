@@ -22,9 +22,11 @@ $(function(){
 
 
   $('.element-detail').click(function(){
-    window.location.href = "./html/comingsoon.html";
-    if (this.id == 'perayaki' || 'tyoutaroukai') {
+
+    if (this.id == 'perayaki' || this.id == 'tyoutaroukai') {
       window.location.href = "./html/element.html"+'?'+this.id;
+    }else{
+      window.location.href = "./html/comingsoon.html";
     }
   });
 
