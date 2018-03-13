@@ -1,35 +1,26 @@
-{
-  let divPerayakiElement = document.getElementById('perayakiElement')
+function pageInsert(top,contents){
 
-  let perayakiShopInfo = [
-    {
-    name:'元祖ペラ焼き にしむら',
-    adress:'〒787-0324 高知県土佐清水市中央町6-1-1',
-    tel:'0880-82-2752',time:'10:30 - 22:30',
-    rest:'火曜日',url:'https://tabelog.com/kochi/A3904/A390404/39004584/',
-    photo:'../image/nisimura.png'},
-    {
-    name:'タッチ',
-    adress:'〒787-0331 高知県土佐清水市越前町5-6',
-    tel:'0880-82-4210',
-    time:'14:00 -',
-    rest:'不定休',
-    url:'https://tabelog.com/kochi/A3904/A390404/39004335/',
-    photo:'../image/tacchi.png'
-    }
-  ]
+  let topImage = document.getElementById('topImage')
+  topImage.src = top.image
 
-  let divPerayakiShopDetail = ''
-  for (shop of perayakiShopInfo) {
+  let topTitle = document.getElementById('topTitle')
+  topTitle.innerHTML = top.title
 
-    divPerayakiShopDetail += '<div class="recommendation"><div class="recommend-photo">'
-    divPerayakiShopDetail += '<img src="'+shop.photo+'" class="recommend-image"/></div>'
+  let topText = document.getElementById('text')
+  topText.innerHTML = top.text
 
-    divPerayakiShopDetail += '<div class="about-place">' + '<p>'+shop.name+'</p>'
-    divPerayakiShopDetail += '<ul><li>Adress: '+shop.adress+'</li><li>Tel: '+shop.tel+'</li><li>営業時間: '+shop.time+'</li><li>定休日: '+shop.rest+'</li><li>URL: <a href="'+shop.url+'">'+shop.url+'</a></li></ul></div></div>'
+
+  let divElement = document.getElementById('aboutDetail')
+
+  let divDetail = ''
+  for (place of contents) {
+
+    divDetail += '<div class="recommendation"><div class="recommend-photo">'
+    divDetail += '<img src="'+place.photo+'" class="recommend-image"/></div>'
+
+    divDetail += '<div class="about-place">' + '<p>'+place.name+'</p>'
+    divDetail += '<ul><li>Adress: '+place.adress+'</li><li>Tel: '+place.tel+'</li><li>営業時間: '+place.time+'</li><li>定休日: '+place.rest+'</li><li>URL: <a href="'+place.url+'">'+place.url+'</a></li></ul></div></div>'
   }
+    divElement.innerHTML = divDetail
 
-
-    divPerayakiElement.innerHTML = divPerayakiShopDetail
-
-  }
+}

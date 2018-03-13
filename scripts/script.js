@@ -23,6 +23,13 @@ $(function(){
 
   $('.element-detail').click(function(){
     window.location.href = "./html/comingsoon.html";
+    if (this.id == 'perayaki' || 'tyoutaroukai') {
+      window.location.href = "./html/element.html"+'?'+this.id;
+    }
   });
+
+
+
+
 
 });
