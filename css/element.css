@@ -64,10 +64,15 @@ img{
   display: inline-block;
 }
 
+.about-place p{
+  font-size: 25px;
+  font-weight: bold;
+}
+
 .about-place a{
-  font-size: 30px;
+  font-size: 15px;
 }
 
 .about-place li{
-  font-size: 20px;
+  font-size: 15px;
 }
