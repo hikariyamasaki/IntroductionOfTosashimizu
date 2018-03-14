@@ -23,7 +23,7 @@ $(function(){
 
   $('.element-detail').click(function(){
 
-    if (this.id == 'perayaki' || this.id == 'tyoutaroukai') {
+    if (this.id == 'perayaki' || this.id == 'tyoutaroukai' || this.id == 'simizusaba' || this.id == 'sashimi' || this.id == 'toujindaba') {
       window.location.href = "./html/element.html"+'?'+this.id;
     }else{
       window.location.href = "./html/comingsoon.html";
