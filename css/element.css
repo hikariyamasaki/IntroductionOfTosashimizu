@@ -38,6 +38,9 @@ img{
   font-size: 20px;
   font-weight: bold;
 }
+.bd {
+  width: 100%;
+}
 
 .bd img{
   width: 100%;

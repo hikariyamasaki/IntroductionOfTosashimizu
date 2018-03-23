@@ -19,7 +19,7 @@ function pageInsert(top,contents){
     divDetail += '<img src="'+place.photo+'" class="recommend-image"/></div>'
 
     divDetail += '<div class="about-place">' + '<p>'+place.name+'</p>'
-    divDetail += '<ul><li>Adress: '+place.adress+'</li><li>Tel: '+place.tel+'</li><li>営業時間: '+place.time+'</li><li>定休日: '+place.rest+'</li><li>URL: <a href="'+place.url+'">'+place.url+'</a></li></ul></div></div>'
+    divDetail += '<ul><li>Adress: '+place.adress+'</li><li>Tel: '+place.tel+'</li><li>営業時間: '+place.time+'</li><li>定休日: '+place.rest+'</li><li>URL: <a href="'+place.url+'">詳細リンク</a></li></ul></div></div>'
   }
     divElement.innerHTML = divDetail
 

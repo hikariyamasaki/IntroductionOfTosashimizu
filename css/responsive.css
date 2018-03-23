@@ -178,6 +178,51 @@
     display: none;
   }
 
+  .page-element div {
+    font-size: 20px;
+  }
+
+  .page-element {
+    top: 5%;
+    left: 5%;
+  }
+
+  .page-element p {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.recommendation {
+    display: inline-block;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 20px;
+}
+
+.recommend-image {
+    width: 20%;
+    display: inline-block;
+    float: left;
+}
+
+.about-place {
+    margin-left: 5%;
+    display: inline-block;
+}
+
+.about-place p {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.about-place li {
+    font-size: 9px;
+}
+
+.about-place a{
+  font-size: 3px;
+}
 
 
   footer p {
